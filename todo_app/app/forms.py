@@ -9,6 +9,6 @@ class TaskForm(forms.ModelForm):
             'task':forms.TextInput(attrs={
                 'id':'task-text',
                 'required':True,
-                'placeholder':'Add Task'
+                'placeholder':'New Task'
             }),
         }

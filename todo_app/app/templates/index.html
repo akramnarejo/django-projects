@@ -14,7 +14,7 @@
         <form action="" method="POST" id='taskform' class="mt-md-3">
             {% csrf_token %}
             {{form.task}}
-            <button class="btn btn-primary" type="submit">Submit</button>
+            <button class="btn btn-primary" type="submit">Add</button>
         </form>
         <div class="tasks">
             {% for task in tasks %}
